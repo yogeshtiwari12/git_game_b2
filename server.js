@@ -7,7 +7,7 @@ dotenv.config();
 
 const app = express();
 app.use(cors({
-    origin: "https://git-game-fmf6.vercel.app",
+    origin: "https://git-game-gamma.vercel.app",
 }));
 
 app.get("/contributions/:username/:year", async (req, res) => {
